@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=La+Belle+Aurore&display=swap');
+
+.lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 2;
+}
+
+.lnr-cart {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.lnr-magnifier {
+    color: #000000;   
+}
+
+.navbar-nav li {
+    margin-right: 3em;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.h {
+    text-align: center;
+}
+
+.card-body {
+    align-content: center;
+}
+
+/*------- JUMBOTRON ------*/
+.jumbotron {
+    background-image: url('images/jumbo-bg.jpg');
+    height: calc(100vh - 200px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.campaign .period {
+    font-family: "La Belle Aurore";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.campaign .category {
+    color: #ffc9ce;
+    mix-blend-mode: luminosity;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 44px;
+    letter-spacing: -2px;
+    background-color: #515036;
+}
+
+.campaign .code {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.code span {
+    font-family: "Gabriela", serif;
+    letter-spacing: 2px;
+    background-color: #515036;
+    mix-blend-mode: luminosity;
+}
+/*------------------------*/
+
+
+/*-------- FOOTER --------*/
+footer {
+    margin-top: 60px;
+    padding: 5em;
+}
+
+footer p {
+    margin: 0;
+}
+
+.slogan {
+    margin-bottom: 20px;
+}
+
+.logo-footer {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 40px 1fr;
+    column-gap: 0px;
+    margin: 15px 0;
+}
+
+.logo-footer img {
+    width: 40px;
+    margin-top: -5px;
+}
+
+.logo-footer h3 {
+    font-family: "Gabriela", serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #636669;
+}
+
+.social {
+    margin-top: 30px;
+}
+
+.social img {
+    max-width: 30px;
+}
+/*------------------------*/
+
+
+/*--------- ABOUT ---------*/
+.story img {
+    filter: hue-rotate(-10deg) invert(-10%);
+}
+/*------------------------*/
